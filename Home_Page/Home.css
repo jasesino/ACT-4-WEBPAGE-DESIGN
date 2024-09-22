@@ -1,0 +1,241 @@
+/*Body*/
+.body{
+    background-color: rgb(15, 25, 35);
+}
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:sticky; 
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+    padding: 5px;
+    font-family: Tahoma, 'Times New Roman', Times, serif;
+    max-width: 1500px;
+    border-radius: 5px;;
+}
+
+.header .nav{
+    display: flex;
+    justify-content:space-around;
+    flex-grow: 1;
+    margin-top: 25px;
+    margin-bottom: 3px;
+
+}
+
+.header .nav a{
+    color:white;
+    margin: 0px 16px;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-color: rgb(141, 141, 141);
+    border-width: 2px;
+    padding: 3px;
+    text-decoration: none;
+
+}
+
+.header .nav a:hover{
+    text-decoration:underline;
+    color: grey;
+    font-size: 11px;
+}
+
+.header .play_now{
+    display: flex;
+    justify-content:right;
+    flex-grow: 0;
+    position: relative;
+    bottom:4px;
+    margin-top: 10px;
+    padding:10px;   
+}
+
+.header .play_now a{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    color: black;
+    background-color: rgb(255, 56, 56);
+
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(255, 56, 56);
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.header .play_now a:hover{
+    background-color: rgb(249, 24, 24);
+    border-color: rgb(249, 24, 24);
+    color: rgb(31, 31, 31);
+
+}
+
+.logo{
+    position:relative;
+    top: 3px;
+    left: 20px;
+}
+
+.logo img{
+    width: 28px;
+    padding: 5px;
+}
+
+.header .title{
+    position:relative;
+    top: 2px;
+    left: 20px;
+}
+
+.header .title a{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Barlow Condensed";
+    color: rgb(255, 172, 19);
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.header .title a:hover{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: "Barlow Condensed";
+    color: rgb(251, 187, 69);
+    text-decoration: none;
+}
+
+/*Patchnote*/
+
+.patchnote{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Protest Guerrilla";
+}
+
+
+
+/*Video background*/
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video video{
+    max-height: 100vh;
+    position:static;
+    margin: 25px;
+
+}
+
+/*picture w/link to another website*/
+
+.personal_info_picture{
+    display: flex;
+    align-items: top;
+    justify-content:space-evenly;
+}
+
+.personal_info_picture img{
+    max-width: 200px;
+    position: static;
+    top: 0px;
+    margin:50px 50px;
+    margin-bottom: 10px;
+}
+
+.personal_info_picture p{
+    margin: 0px 50px;
+    margin-bottom: 25px;
+    max-width: 200px;
+}
+
+.personal_info_picture a{
+    text-decoration: none;
+}
+
+.personal_info_picture a:hover{
+    text-decoration: none;
+}
+
+#game_update{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#title_personal_info{
+    color: rgb(174, 174, 174);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#summary_personal_info{
+    color: white;
+}
+
+#hover_highlight:hover{
+    font-size: 1.01em;
+    background-color: rgb(20, 30, 39);
+    margin: 0px 30px;
+
+}
+
+/*footer*/
+
+.footer{
+    font-family: Tahoma;
+    background-color: black;
+    border: 3px;
+    border-radius: 5px;
+    border-color: black;
+    height: 100px;
+}
+
+.footer h3{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(75, 74, 74);
+}
+
+.footer p{
+    color: white;
+    font-size: 8px;
+    font-style: italic;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer p:hover{
+    text-decoration: none;
+    font-size: 9px;
+    color: grey;
+}
+
+
+
+
